@@ -75,7 +75,7 @@ class Spedah extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(top: height * (48 / 812)),
+            padding: EdgeInsets.symmetric(horizontal: height * (48 / 812),vertical: 8),
             child: Button(
               onTap: () {
                 Navigator.pushReplacement(
@@ -90,10 +90,11 @@ class Spedah extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(top: height * (16 / 812)),
+            padding: EdgeInsets.symmetric(horizontal: height * (48 / 812),vertical: 8),
             child: Button(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context){
+                Navigator.pushReplacement(context,
+                    MaterialPageRoute(builder: (context) {
                   return const Register();
                 }));
               },

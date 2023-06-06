@@ -42,8 +42,11 @@ flutter:
 
 
 
+
+
+
   fonts:
-    - family: Inter
+    - family: ARCENA
       fonts:
-        - asset: assets/fonts/Inter.ttf
+        - asset: assets/fonts/ARCENA.ttf
           style: italic
